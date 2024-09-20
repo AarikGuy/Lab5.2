@@ -49,19 +49,20 @@
         Bears can also be classified in terms of their habitat — both large and medium bears are just as at home in urban areas as they are in the countryside. Different habitats encourange different behaviour however, as you'll find out below. The below table also gives you some useful facts about bears.
         <br><br>
         <table>
+          <caption>Bear Types and Their Characteristics</caption>
           <thead>
             <tr>
-              <td>Bear Type</td>
-              <td>Coat</td>
-              <td>Adult size</td>
-              <td>Habitat</td>
-              <td>Lifespan</td>
-              <td>Diet</td>
+              <th scope="col">Bear Type</th>
+              <th scope="col">Coat</th>
+              <th scope="col">Adult Size</th>
+              <th scope="col">Habitat</th>
+              <th scope="col">Lifespan</th>
+              <th scope="col">Diet</th>
             </tr>
           </thead>
           <tbody>
             <tr>
-              <td>Wild</td>
+              <th scope="row">Wild</th>
               <td>Brown or black</td>
               <td>1.4 to 2.8 meters</td>
               <td>Woods and forests</td>
@@ -69,15 +70,16 @@
               <td>Fish, meat, plants</td>
             </tr>
             <tr>
-              <td>Urban</td>
+              <th scope="row">Urban</th>
               <td>North Face</td>
-              <td>18 to 22</td>
+              <td>1.8 to 2.2 meters</td>
               <td>Condos and coffee shops</td>
               <td>20 to 32 years</td>
               <td>Starbucks, sushi</td>
             </tr>
           </tbody>
         </table>
+        
 
         <h3>Habitats and Eating habits</h3>
         <br><br>
@@ -100,8 +102,15 @@
         <audio controls>
           <source src="media/bear.mp3" type="audio/mp3">
           <source src="media/bear.ogg" type="audio/ogg">
-          <p>It looks like your browser doesn't support HTML5 audio players.</p>
+          <p>It looks like your browser doesn't support HTML5 audio players. You can <a href="media/bear.mp3" download>download the audio file here</a> and listen to it on your own device.</p>
         </audio>
+
+        <details>
+          <summary>Audio transcript: Bear Mating Rituals</summary>
+          <p>Welcome to this audio file about bear mating rituals. I can say anything I want in this, blah blah blah blah.</p>
+          <p>[Expert Quote] "Don't forget to make your anti sea bear circles"</p>
+          <p>[Narrator] "Don't forget to make your anti sea bear circles"</p>
+        </details>
 
         <aside>
 
@@ -112,10 +121,11 @@
           He has never seen a bear, but once read a Daily Mail article about them, and thinks they sound cool.
 
         </aside>
-        <section class="comments">
-          <div class="show-hide">Show comments</div>
+        
+          <button class="show-hide" aria-expanded="false" aria-controls="comments">Show comments</button>
 
-          <div class="comment-wrapper">
+          <section class="comments" id="comments">
+            <div class="comment-wrapper">
 
             <h2>Add comment</h2>
 
@@ -131,7 +141,7 @@
               <div>
                 <input type="submit" value="Submit comment">
               </div>
-            </form>
+            </form>            
             
 
             <h2>Comments</h2>

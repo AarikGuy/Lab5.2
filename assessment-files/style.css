@@ -249,3 +249,8 @@ audio {
 .comment-container li p:nth-child(2) {
   flex: 5;
 }
+
+main{
+  font-size: 1.8rem;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
