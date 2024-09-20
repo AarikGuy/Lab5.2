@@ -7,7 +7,7 @@ html, body {
 
 html {
   font-size: 10px;
-  background-color: #dde;
+  background-color: rgb(138, 196, 255);
 }
 
 body {
@@ -139,7 +139,7 @@ footer {
 
 table {
   width: 100%;
-  background-color: #dde;
+  background-color: rgb(138, 196, 255);
   border-collapse: collapse;
 }
 
@@ -156,7 +156,7 @@ th[scope="col"] {
 }
 
 tbody tr:nth-child(odd) {
-  background-color: #def;
+  background-color: rgb(138, 196, 255);
 }
 
 /* styling content images and audio */
@@ -173,7 +173,7 @@ audio {
 /* Comments styling */
 
 .comments {
-  background-color: #def;
+  background-color: rgb(138, 196, 255);
   padding: 10px;
 }
 
@@ -247,4 +247,19 @@ audio {
 
 .comment-container li p:nth-child(2) {
   flex: 5;
+}
+
+section{
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+section1{
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+section2{
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
 }
